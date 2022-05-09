@@ -1,0 +1,55 @@
+/*Normal*/
+
+.form-label{
+    display: block;
+    width: 400px;
+    border: 2px solid silver;
+    padding: 10px 10px;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: text;
+}
+
+.form-label input, .form-label span{
+    font: 16px/16px Verdana;
+    padding: 0;
+}
+
+.form-label input{
+    display: block;
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: text;
+}
+
+.form-label span{
+    color: silver;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    transition: .25s;
+    cursor: text;
+}
+
+/*Focus*/
+
+.form-label.focus{
+    border-color: #2A7AE4;
+}
+
+.form-label span.focus{
+    color: #2A7AE4;
+}
+
+/*TOP*/
+
+.form-label span.top{
+    left: 5px;
+    top: -10px;
+    font-size: 12px;
+    background: #eaf2fd;
+    padding: 0 5px;
+}
