@@ -110,6 +110,7 @@ main{
     background-color: #2A7AE4;
     padding: 1rem;
     cursor: pointer;
+    border: none;
 }
 
 /*---------FIN PROMOCIONES---------------*/
@@ -188,7 +189,7 @@ main{
 
 .menu{
     flex-direction: column;
-    height: 100%;
+    height: 95%;
     justify-content: space-between;
     font-size: 1.2rem;
 }
@@ -200,5 +201,35 @@ main{
 
 .form_contacto{
     flex-direction: column;
-    border: 2px solid black;
+}
+
+.mensaje_formulario{
+    margin: 0 0 0.7rem;
+}
+
+.input_nombre{
+    margin: 0 0 0.6rem
+}
+
+#mensaje{
+    width: 100%;
+    font-size: 1rem;
+    background: none;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border: 2px solid silver;
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+}
+
+#mensaje:focus{
+    outline: none;
+    border: 2px solid #2A7AE4;
+}
+
+.footer_autor{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
 }
