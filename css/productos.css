@@ -1,0 +1,85 @@
+/*---------Productos---------------------*/
+
+.productos{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.productos_cabecera{
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productos_titulo{
+    font-size: 2rem;
+}
+
+.productos_verTodo{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.icon-arrow_forward{
+    margin-left: 0.2rem;
+}
+
+.productos_lista{
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja_producto{
+    width: 16%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.imagen_producto{
+    width: 100%;
+    /*height: 80%;*/
+}
+
+.producto_descripcion{
+    margin: 0.3rem 0;
+}
+
+.precio{
+    margin: 0.3rem 0;
+}
+
+.verProducto{
+    margin: 0.3rem 0 0;
+}
+
+/*---------Fin productos-----------*/
+
+@media screen and (max-width: 800px) {
+    .productos{
+        width: 90%;
+    }
+    .productos_lista{
+        flex-wrap: wrap;
+    }
+    .desaparecer{
+        display: none;
+    }
+    .caja_producto{
+        width: 49%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1140px) {
+    .productos{
+        width: 90%;
+    }
+    .desaparecer{
+        display: none;
+    }
+    .caja_producto{
+        width: 24%;
+    }
+}

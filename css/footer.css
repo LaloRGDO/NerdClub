@@ -1,0 +1,113 @@
+/*---------Footer------------------*/
+
+.nav_contacto{
+    background: #EAF2FD;
+}
+
+.contenedor_fotter_nav_contacto{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_menu_footer{
+    width: 50%;
+    justify-content: space-around;
+}
+
+.logo_footer{
+    margin-bottom: 1rem;
+}
+
+.menu{
+    flex-direction: column;
+    height: 15rem;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.opcion_menu a{
+    text-decoration: none;
+    color: #000000
+}
+
+.form_contacto{
+    flex-direction: column;
+}
+
+.mensaje_formulario{
+    margin-bottom: 0.7rem;
+}
+
+.input_nombre{
+    margin-bottom: 0.6rem;
+}
+
+#mensaje{
+    width: 100%;
+    font-size: 1rem;
+    background: none;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    border: 2px solid silver;
+    border-radius: 8px;
+    margin-bottom: 0.6rem;
+}
+
+#mensaje:focus{
+    outline: none;
+    border: 2px solid #2A7AE4;
+}
+
+.footer_autor{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+/*----------FIN FOOTER------------*/
+
+@media screen and (max-width: 767px) {
+    .contenedor_fotter_nav_contacto{
+        width: 95%;
+        flex-direction: column;
+    }
+    .menu{
+        text-align: center;
+    }
+    .logo_menu_footer{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .input_nombre{
+        width: 100%;
+    }
+    .form-label{
+        width: 100%;
+    }
+    #nombre{
+        width: 100%;
+    }
+    .form_contacto{
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+    .contenedor_fotter_nav_contacto{
+        width: 90%;
+    }
+    .logo_menu_footer{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 2rem;
+    }
+}
