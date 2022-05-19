@@ -25,7 +25,7 @@ header{
     display: flex;
 }
 
-.logo{
+.logo, .logo_login{
     width: 10rem;
     height: 2.5rem;
     background: url(../img/NerdClublogoExtendido.png);
