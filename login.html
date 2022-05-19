@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/promociones.css">
     <link rel="stylesheet" href="css/productos.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/Form_Login.css">
     <title>Nerd Club | Login</title>
 </head>
 <body>
@@ -33,7 +34,12 @@
     </header>
 
     <main class="main_login">
-
+        <form action="" class="form_login flex">
+            <legend class="form_login_legend font bold">Iniciar Sesión</legend>
+            <label for="" class="form_login_label"><input type="email" required placeholder="Escriba su correo electrónico" class="form_login_email font"></label>
+            <label for="" class="form_login_label"><input type="password" required placeholder="Escriba su contraseña" class="form_login_password"></label>
+            <input type="submit" value="Entrar" class="form_login_submit font bold">
+        </form>
     </main>
 
     <footer>
@@ -57,7 +63,7 @@
 
                     <legend class="mensaje_formulario font bold" class="form_legend">Hable con nosotros</legend>
                     <div class="input_nombre">
-                        <label for="nombre" class="form-label"><span>Nombre</span><input type="text" class="nombre" id="nombre"></label>
+                        <label for="nombre" class="form-label"><span>Nombre</span><input type="text" class="nombre font" id="nombre"></label>
                     </div>
                     <div class="input_mensaje font">
                         <label for="mensaje"><textarea name="" class="font bold" id="mensaje" cols="45" rows="6" placeholder="Escribe tu mensaje"></textarea></label>

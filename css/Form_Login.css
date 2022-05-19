@@ -1,0 +1,41 @@
+.main_login{
+    background: #E5E5E5;
+}
+.form_login{
+    width: 30vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_login_email, .form_login_password{
+    background: #ffffff;
+    padding: 1rem .5rem;
+}
+
+.form_login_legend{
+    margin: 10rem 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+.form_login_label{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.form_login_submit{
+    margin-bottom: 10rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .form_login{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+    .form_login{
+        width: 60%;
+    }
+}

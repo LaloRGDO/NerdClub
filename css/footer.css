@@ -33,7 +33,7 @@
     color: #000000
 }
 
-.form_contacto{
+.form_contacto, .form_login{
     flex-direction: column;
 }
 
@@ -45,7 +45,7 @@
     margin-bottom: 0.6rem;
 }
 
-#mensaje{
+#mensaje, .form_login_email, .form_login_password{
     width: 100%;
     font-size: 1rem;
     background: none;
@@ -56,7 +56,7 @@
     margin-bottom: 0.6rem;
 }
 
-#mensaje:focus{
+#mensaje:focus, .form_login_email:focus, .form_login_password:focus{
     outline: none;
     border: 2px solid #2A7AE4;
 }

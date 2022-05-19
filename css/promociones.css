@@ -37,7 +37,7 @@
     margin-bottom: 1rem;
 }
 
-.promociones_boton{
+.promociones_boton, .form_login_submit{
     width: 10rem;
     color: white;
     font-size: 1rem;
